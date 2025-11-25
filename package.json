@@ -13,6 +13,10 @@
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brainkit/vs-code-soft-sunset-dark-theme"
+    },
     "contributes": {
         "themes": [
             {
