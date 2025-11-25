@@ -29,7 +29,7 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 
 ### Manual Installation
 
-1. Download the latest `.vsix` file from [Releases](https://github.com/brainkit/vs-code-soft-sunset-dark-theme/releases)
+1. Download the latest `.vsix` file from [Releases](https://github.com/brainkit/vs-code-soft-sunset-dark-theme/tree/main/releases)
 2. In VS Code, press `Ctrl+Shift+P` and type "Extensions: Install from VSIX"
 3. Select the downloaded `.vsix` file
 
