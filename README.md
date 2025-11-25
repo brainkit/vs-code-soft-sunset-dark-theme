@@ -88,7 +88,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Full VS Code integration
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/brainkit/soft-sunset-dark-theme)
+- https://github.com/brainkit/vs-code-soft-sunset-dark-theme
 
 ---
 
