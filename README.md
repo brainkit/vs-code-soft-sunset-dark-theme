@@ -87,8 +87,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Soft sunset color palette
 - Full VS Code integration
 
-## 🔗 Links
-- https://github.com/brainkit/vs-code-soft-sunset-dark-theme
 
 ---
 
