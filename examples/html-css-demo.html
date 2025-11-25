@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Sunset Dark Theme Demo</title>
+    <style>
+        :root {
+            --primary-color: #ff6b9d;
+            --secondary-color: #c44569;
+            --accent-color: #f8b500;
+            --background-color: #2d1b69;
+            --surface-color: #1a0e33;
+            --text-primary: #ffffff;
+            --text-secondary: #b8b8d1;
+            --border-color: #3d2b7a;
+            --shadow-color: rgba(255, 107, 157, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--background-color) 0%, var(--surface-color) 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: var(--surface-color);
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 32px var(--shadow-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 20px rgba(255, 107, 157, 0.5);
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background: var(--surface-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 16px var(--shadow-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(255, 107, 157, 0.2);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(255, 107, 157, 0.4);
+        }
+
+        .code-block {
+            background: var(--background-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            overflow-x: auto;
+        }
+
+        .code-block code {
+            color: var(--accent-color);
+            font-family: 'Courier New', monospace;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Soft Sunset Dark Theme</h1>
+            <p class="subtitle">A calm sunset theme in neon tones with subtle coastline hues</p>
+        </header>
+
+        <main>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-header">
+                        <div class="card-icon">🌅</div>
+                        <h3>Calming Colors</h3>
+                    </div>
+                    <p>Soft sunset-inspired neon tones with coastline hues designed for relaxed coding sessions.</p>
+                    <button class="button">Learn More</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-header">
+                        <div class="card-icon">👁️</div>
+                        <h3>Eye-Friendly</h3>
+                    </div>
+                    <p>Reduced eye strain for extended coding sessions with carefully selected color contrast ratios.</p>
+                    <button class="button">Features</button>
+                </article>
+
+                <article class="card">
+                    <div class="card-header">
+                        <div class="card-icon">✨</div>
+                        <h3>Modern Aesthetic</h3>
+                    </div>
+                    <p>Contemporary dark theme with vibrant accents that make your code stand out beautifully.</p>
+                    <button class="button">Gallery</button>
+                </article>
+            </div>
+
+            <section class="code-block">
+                <code>
+                    // Example TypeScript code<br>
+                    const theme = {<br>
+                    &nbsp;&nbsp;primary: '#ff6b9d',<br>
+                    &nbsp;&nbsp;secondary: '#c44569',<br>
+                    &nbsp;&nbsp;accent: '#f8b500'<br>
+                    };<br>
+                    <br>
+                    export default theme;
+                </code>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Soft Sunset Dark Theme. Made with ❤️ for comfortable coding.</p>
+        </footer>
+    </div>
+</body>
+</html>
