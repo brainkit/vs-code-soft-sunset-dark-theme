@@ -20,9 +20,13 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 3. Search for "Soft Sunset Dark"
 4. Click **Install**
 
+[📥 Install from VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=brainkit.soft-sunset-dark)
+
 ### Manual Installation
-1. In VS Code, press `Ctrl+Shift+P` and type "Extensions: Install from VSIX"
-2. Select the extracted `.vsix` file
+
+1. Download the latest `.vsix` file from [Releases](https://github.com/brainkit/vs-code-soft-sunset-dark-theme/releases)
+2. In VS Code, press `Ctrl+Shift+P` and type "Extensions: Install from VSIX"
+3. Select the downloaded `.vsix` file
 
 ## 🎨 Usage
 
@@ -30,34 +34,7 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 2. Type "Preferences: Color Theme" and press Enter
 3. Select **Soft Sunset Dark** from the list
 
-## 🛠️ Development
-
-### Prerequisites
-
-- Node.js
-- VS Code 1.80.0 or later
-
-### Building
-
-```bash
-# Install dependencies
-npm install
-
-# Package the extension
-npm run package
-```
-
-### Testing
-
-```bash
-# Run tests
-npm test
-
-# Start development mode
-npm run dev
-```
-
-## 📋 Requirements
+##  Requirements
 
 - VS Code version: `^1.80.0`
 - Extension kind: `UI`
@@ -86,6 +63,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Initial release
 - Soft sunset color palette
 - Full VS Code integration
+- Ready for marketplace publishing
 
 
 ---
