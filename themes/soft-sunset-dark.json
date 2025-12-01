@@ -680,7 +680,7 @@
                 "entity.name.variable.parameter.python"
             ],
             "settings": {
-                "foreground": "#78a89a"
+                "foreground": "#b8b098"
             }
         },
         {
@@ -1535,7 +1535,7 @@
             "name": "python typing module types",
             "scope": "support.type.typing.python",
             "settings": {
-                "foreground": "#d8a860"
+                "foreground": "#c89858"
             }
         },
         {
@@ -2247,13 +2247,13 @@
         "button.foreground": "#202420",
         "button.hoverBackground": "#6a7e6a",
         "button.separator": "#00000040",
-        "button.secondaryBackground": "#454845",
+        "button.secondaryBackground": "#6a726a",
         "button.secondaryForeground": "#202420",
-        "button.secondaryHoverBackground": "#505850",
+        "button.secondaryHoverBackground": "#747c74",
         "dropdown.background": "#2d312d",
         "dropdown.border": "#2d312d",
         "dropdown.listBackground": "#2d312d",
-        "input.background": "#353833",
+        "input.background": "#252924",
         "input.foreground": "#a8a090",
         "menu.foreground": "#a8a090",
         "menu.separatorBackground": "#2d312d",
@@ -2272,7 +2272,7 @@
         "sideBarTitle.foreground": "#b8b0a0",
         "list.activeSelectionBackground": "#48504855",
         "list.activeSelectionForeground": "#c8c0b0",
-        "list.inactiveSelectionBackground": "#353935",
+        "list.inactiveSelectionBackground": "#2d312d",
         "list.inactiveSelectionForeground": "#b8b098",
         "list.hoverBackground": "#323632",
         "list.hoverForeground": "#c8c0b0",
@@ -2298,13 +2298,13 @@
         "editor.findMatchBackground": "#ecc28533",
         "editor.findMatchBorder": "#ecc28580",
         "editor.findMatchHighlightBackground": "#ecc2851f",
-        "editorHoverWidget.background": "#353833",
+        "editorHoverWidget.background": "#252924",
         "editorHoverWidget.border": "#2d312d",
         "editorHoverWidget.highlightForeground": "#78a89a",
-        "editorSuggestWidget.background": "#353833",
+        "editorSuggestWidget.background": "#252924",
         "editorSuggestWidget.border": "#2d312d",
         "editorSuggestWidget.selectedBackground": "#48504855",
-        "editorWidget.background": "#353833",
+        "editorWidget.background": "#252924",
         "editorGutter.addedBackground": "#5a886a",
         "editorGutter.deletedBackground": "#c89858",
         "editorGutter.modifiedBackground": "#c0a070",
