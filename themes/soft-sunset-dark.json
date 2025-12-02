@@ -2231,7 +2231,7 @@
     ],
     "colors": {
         "foreground": "#a8a090",
-        "disabledForeground": "#f0e8d8",
+        "disabledForeground": "#7c7464",
         "descriptionForeground": "#9a9580",
         "icon.foreground": "#78a89a",
         "focusBorder": "#2d312d",
