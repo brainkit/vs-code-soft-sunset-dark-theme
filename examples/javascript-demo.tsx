@@ -27,7 +27,11 @@ class UserService {
     return response.data;
   }
 }
-
+/**
+ * 
+ * @param userId 
+ * @returns UserProfile Component
+ */
 const UserProfile: React.FC<{ userId: number }> = ({ userId }) => {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
