@@ -4,11 +4,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "comment": {
-            "foreground": "#7a7565",
+            "foreground": "#8a8575",
             "fontStyle": "italic"
         },
         "comment.doc": {
-            "foreground": "#8a8570",
+            "foreground": "#9a9580",
             "fontStyle": "italic"
         },
         "keyword": {
@@ -45,13 +45,13 @@
             "foreground": "#c89858"
         },
         "function": {
-            "foreground": "#78a89a"
+            "foreground": "#88b8aa"
         },
         "property": {
-            "foreground": "#b8b098"
+            "foreground": "#c8c0a8"
         },
         "variable": {
-            "foreground": "#b8b098"
+            "foreground": "#c8c0a8"
         },
         "parameter:python": {
             "foreground": "#78a89a"
@@ -2002,7 +2002,7 @@
             "name": "Comments",
             "scope": "comment, punctuation.definition.comment",
             "settings": {
-                "foreground": "#7a7565",
+                "foreground": "#8a8575",
                 "fontStyle": "italic"
             }
         },
@@ -2224,7 +2224,7 @@
         "disabledForeground": "#7c7464",
         "descriptionForeground": "#9a9580",
         "focusBorder": "#302a20",
-        "widget.shadow": "#0a0c0a80",
+        "widget.shadow": "#0a0c0a20",
         "selection.background": "#40383022",
         "textLink.foreground": "#c0a070",
         "textLink.activeForeground": "#d0b080",
@@ -2246,10 +2246,10 @@
         "input.background": "#1f1a15",
         "input.foreground": "#a8a090",
         "menu.foreground": "#b8a880",
-        "menu.separatorBackground": "#302a20",
-        "menu.selectionForeground": "#b8a880",
-        "menu.selectionBackground": "#40383080",
-        "menu.background": "#24201a",
+        "menu.separatorBackground": "#30251a",
+        "menu.selectionForeground": "#c8b8a4",
+        "menu.selectionBackground": "#302a2075",
+        "menu.background": "#26221c",
         "menubar.foreground": "#b8a880",
         "menubar.selectionForeground": "#b8a880",
         "menubar.inactiveForeground": "#b8a880",
@@ -2353,7 +2353,7 @@
         "peekViewEditor.matchHighlightBackground": "#40383080",
         "peekViewResult.background": "#24201a",
         "progressBar.background": "#a08050",
-        "scrollbar.shadow": "#302a2000",
+        "scrollbar.shadow": "#00000000",
         "scrollbarSlider.background": "#40383090",
         "scrollbarSlider.hoverBackground": "#504840a8",
         "scrollbarSlider.activeBackground": "#48403895",

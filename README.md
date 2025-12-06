@@ -11,12 +11,13 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 - **Modern Aesthetic**: Contemporary dark theme with vibrant accents
 - **VS Code Compatible**: Fully compatible with VS Code 1.80.0 and later
 
-## � Preview
+## 📸 Preview
 
 ### JavaScript Syntax Highlighting
+
 ![JavaScript Demo](examples/javascript-demo.png)
 
-## �📦 Installation
+## 📦 Installation
 
 ### From VS Code Marketplace
 
@@ -39,7 +40,7 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 2. Type "Preferences: Color Theme" and press Enter
 3. Select **Soft Sunset Dark** from the list
 
-##  Requirements
+## ⚙️ Requirements
 
 - VS Code version: `^1.80.0`
 - Extension kind: `UI`
@@ -64,18 +65,30 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 Changelog
 
+### Version 0.0.17 (Current)
+
+- **Improved readability**: Enhanced comment contrast for comfortable reading
+- **Better hierarchy**: Optimized variable and function colors for clearer code structure
+- **Relaxed coding focus**: Fine-tuned colors to maintain the calm, sunset-inspired atmosphere
+- **Consistency**: Unified improvements across both standard and OLED versions
+
 ### Version 0.0.5
+
 - Updated theme colors for better contrast
 - Improved syntax highlighting
 - Enhanced editor workspace colors
 - Better support for additional languages
 
 ### Version 0.0.4
+
 - Initial release
 - Soft sunset color palette
 - Full VS Code integration
 - Ready for marketplace publishing
 
+### Version 0.0.1
+
+- Initial development
 
 ---
 

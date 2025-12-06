@@ -4,11 +4,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "comment": {
-            "foreground": "#606060",
+            "foreground": "#707070",
             "fontStyle": "italic"
         },
         "comment.doc": {
-            "foreground": "#606060",
+            "foreground": "#808080",
             "fontStyle": "italic"
         },
         "keyword": {
@@ -45,13 +45,13 @@
             "foreground": "#d8a868"
         },
         "function": {
-            "foreground": "#88b8aa"
+            "foreground": "#98c8ba"
         },
         "property": {
-            "foreground": "#d0c0a8"
+            "foreground": "#e0d0b8"
         },
         "variable": {
-            "foreground": "#d0c0a8"
+            "foreground": "#e0d0b8"
         },
         "parameter:python": {
             "foreground": "#88b8aa"
@@ -183,7 +183,7 @@
         "peekViewEditor.matchHighlightBackground": "#50585080",
         "peekViewResult.background": "#24201a",
         "progressBar.background": "#a08050",
-        "scrollbar.shadow": "#30303000",
+        "scrollbar.shadow": "#00000000",
         "scrollbarSlider.background": "#40383090",
         "scrollbarSlider.hoverBackground": "#504840a8",
         "scrollbarSlider.activeBackground": "#48403895",
@@ -253,10 +253,10 @@
         "input.background": "#1f1a15",
         "input.foreground": "#c0c0b0",
         "menu.foreground": "#b8a880",
-        "menu.separatorBackground": "#302a20",
-        "menu.selectionForeground": "#b8a880",
-        "menu.selectionBackground": "#40383080",
-        "menu.background": "#24201a",
+        "menu.separatorBackground": "#30251a",
+        "menu.selectionForeground": "#d0c2b2",
+        "menu.selectionBackground": "#302a2075",
+        "menu.background": "#26221c",
         "menubar.foreground": "#b8a880",
         "menubar.selectionForeground": "#b8a880",
         "menubar.inactiveForeground": "#b8a880",
