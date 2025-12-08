@@ -15,13 +15,13 @@
             "foreground": "#b8a0c0"
         },
         "keyword.control.flow": {
-            "foreground": "#c0b0d0"
+            "foreground": "#c0a0d0"
         },
         "keyword.control.return": {
-            "foreground": "#c0b0d0"
+            "foreground": "#c0a0d0"
         },
         "keyword.control.exception": {
-            "foreground": "#f4c088"
+            "foreground": "#f8c890"
         },
         "boolean": {
             "foreground": "#d8a868"
@@ -30,7 +30,7 @@
             "foreground": "#d8a868"
         },
         "string": {
-            "foreground": "#a8b888"
+            "foreground": "#90a070"
         },
         "namespace": {
             "foreground": "#d0c0a8"
@@ -318,14 +318,14 @@
                 "keyword.control.if"
             ],
             "settings": {
-                "foreground": "#c0b0d0"
+                "foreground": "#c0a0d0"
             }
         },
         {
             "name": "Return keywords",
             "scope": ["keyword.control.return"],
             "settings": {
-                "foreground": "#c0b0d0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -337,7 +337,7 @@
                 "storage.modifier.async"
             ],
             "settings": {
-                "foreground": "#c0b0d0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -347,7 +347,7 @@
                 "storage.modifier.async.python"
             ],
             "settings": {
-                "foreground": "#c0b0d0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -359,7 +359,7 @@
                 "keyword.control.exception"
             ],
             "settings": {
-                "foreground": "#f4c088"
+                "foreground": "#f8c890"
             }
         },
         {
@@ -544,7 +544,7 @@
             "name": "inserted.diff",
             "scope": "markup.inserted.diff",
             "settings": {
-                "foreground": "#a8b888"
+                "foreground": "#90a070"
             }
         },
         {
@@ -951,7 +951,7 @@
             "name": "Keywords",
             "scope": "keyword",
             "settings": {
-                "foreground": "#c0b0d0"
+                "foreground": "#c0a0d0"
             }
         },
         {

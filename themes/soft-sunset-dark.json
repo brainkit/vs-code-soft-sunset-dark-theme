@@ -15,7 +15,7 @@
             "foreground": "#a890b0"
         },
         "keyword.control": {
-            "foreground": "#b88ac0"
+            "foreground": "#c0a0d0"
         },
         "keyword.operator": {
             "foreground": "#d0a850"
@@ -24,10 +24,10 @@
             "foreground": "#b88ac0"
         },
         "string": {
-            "foreground": "#98a878"
+            "foreground": "#90a070"
         },
         "string.quoted.template": {
-            "foreground": "#a8b888"
+            "foreground": "#a0b078"
         },
         "number": {
             "foreground": "#d0a850"
@@ -104,14 +104,14 @@
                 "keyword.control.if"
             ],
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#c0a0d0"
             }
         },
         {
             "name": "Return keywords",
             "scope": ["keyword.control.return"],
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -123,7 +123,7 @@
                 "storage.modifier.async"
             ],
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -133,7 +133,7 @@
                 "storage.modifier.async.python"
             ],
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#c0a0d0"
             }
         },
         {
@@ -145,7 +145,7 @@
                 "keyword.control.exception"
             ],
             "settings": {
-                "foreground": "#e4b078"
+                "foreground": "#f8c890"
             }
         },
         {
@@ -945,7 +945,7 @@
             "name": "Strings",
             "scope": "string",
             "settings": {
-                "foreground": "#98a878"
+                "foreground": "#90a070"
             }
         },
         {
