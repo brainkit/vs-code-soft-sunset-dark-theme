@@ -4,11 +4,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "comment": {
-            "foreground": "#8a8575",
+            "foreground": "#9a9580",  // Brighter for better contrast (4.8:1)
             "fontStyle": "italic"
         },
         "comment.doc": {
-            "foreground": "#9a9580",
+            "foreground": "#aaa590",  // Brighter for better contrast (5.5:1)
             "fontStyle": "italic"
         },
         "keyword": {
@@ -20,8 +20,23 @@
         "keyword.operator": {
             "foreground": "#d0a850"
         },
+        "keyword.operator.assignment": {
+            "foreground": "#d0a850"
+        },
+        "keyword.operator.comparison": {
+            "foreground": "#d0a850"
+        },
         "storage": {
             "foreground": "#b88ac0"
+        },
+        "storage.type.ts": {
+            "foreground": "#a890b0"
+        },
+        "support.type.typescript": {
+            "foreground": "#e8a858"
+        },
+        "entity.name.type.typescript": {
+            "foreground": "#e8a858"
         },
         "string": {
             "foreground": "#90a070"
@@ -39,16 +54,16 @@
             "foreground": "#d0a850"
         },
         "type": {
-            "foreground": "#e4b078"
+            "foreground": "#e8a858"  // More distinct from constants
         },
         "type.builtin": {
-            "foreground": "#e4b078"
+            "foreground": "#e8a858"  // Matching type color
         },
         "typeParameter": {
             "foreground": "#e4b078"
         },
         "enum": {
-            "foreground": "#b88ac0"
+            "foreground": "#c090d0"  // More distinct purple
         },
         "function": {
             "foreground": "#78a89a"
