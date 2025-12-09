@@ -557,7 +557,7 @@
                 "keyword.operator.expression.keyof"
             ],
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#b07068"
             }
         },
         {
@@ -890,7 +890,7 @@
             "name": "Source Js Keyword Operator Delete/Of/Instanceof/New/Typeof/Void",
             "scope": "keyword.operator.expression.delete,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#b07068"
             }
         },
         {
@@ -2377,6 +2377,11 @@
         "panelTitle.activeBorder": "#a08050",
         "panelTitle.inactiveForeground": "#887050",
         "panel.dropBorder": "#c0a070",
+        "debugConsole.infoForeground": "#c0a070",
+        "debugConsole.warningForeground": "#c0a070",
+        "debugConsole.errorForeground": "#c89858",
+        "debugConsole.sourceForeground": "#b8b0a0",
+        "debugConsoleInputIcon.foreground": "#d0b080",
         "peekViewEditor.background": "#24201a",
         "peekViewEditor.matchHighlightBackground": "#40383080",
         "peekViewResult.background": "#24201a",
