@@ -30,13 +30,13 @@
             "foreground": "#b88ac0"
         },
         "storage.type.ts": {
-            "foreground": "#9883a3"
+            "foreground": "#c88878"
         },
         "support.type.typescript": {
-            "foreground": "#e4b078"
+            "foreground": "#c88878"
         },
         "entity.name.type.typescript": {
-            "foreground": "#e4b078"
+            "foreground": "#c88878"
         },
         "string": {
             "foreground": "#90a070"
@@ -54,13 +54,13 @@
             "foreground": "#c89858"
         },
         "type": {
-            "foreground": "#e4b078"  // More distinct from constants
+            "foreground": "#c88878"  // More distinct from constants
         },
         "type.builtin": {
-            "foreground": "#e4b078"  // Matching type color
+            "foreground": "#c88878"  // Matching type color
         },
         "typeParameter": {
-            "foreground": "#e4b078"
+            "foreground": "#c88878"
         },
         "enum": {
             "foreground": "#c090d0"  // More distinct purple
@@ -84,7 +84,7 @@
             "foreground": "#b88ac0"
         },
         "tag": {
-            "foreground": "#e4b078"
+            "foreground": "#d0a070"
         },
         "attribute": {
             "foreground": "#b88ac0"
@@ -167,11 +167,7 @@
             "name": "Declaration keywords",
             "scope": [
                 "keyword.declaration",
-                "keyword.other.const",
-                "storage.type.ts",
-                "storage.modifier.ts",
-                "storage.type.const",
-                "storage.modifier.const"
+                "storage.modifier.ts"
             ],
             "settings": {
                 "foreground": "#a890b0"
@@ -190,9 +186,27 @@
         },
         {
             "name": "TypeScript const/let/var storage type",
-            "scope": ["storage.type"],
+            "scope": [
+                "storage.type"
+            ],
             "settings": {
                 "foreground": "#a890b0"
+            }
+        },
+        {
+            "name": "Type declaration keywords (TypeScript)",
+            "scope": [
+                "storage.type.class.ts",
+                "storage.type.interface.ts",
+                "storage.type.enum.ts",
+                "storage.type.type.ts",
+                "storage.type.class.tsx",
+                "storage.type.interface.tsx",
+                "storage.type.enum.tsx",
+                "storage.type.type.tsx"
+            ],
+            "settings": {
+                "foreground": "#c88878"
             }
         },
         {
@@ -669,7 +683,7 @@
             "name": "python type",
             "scope": "support.type.python",
             "settings": {
-                "foreground": "#c89858"
+                "foreground": "#c88878"
             }
         },
 
@@ -904,7 +918,7 @@
             "name": "Python keyword operator in",
             "scope": "keyword.operator.logical.python",
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#b07068"
             }
         },
         {
@@ -1537,14 +1551,14 @@
             "name": "python builtin types",
             "scope": "support.type.python",
             "settings": {
-                "foreground": "#c89858"
+                "foreground": "#c88878"
             }
         },
         {
             "name": "python typing module types",
             "scope": "support.type.typing.python",
             "settings": {
-                "foreground": "#c89858"
+                "foreground": "#c88878"
             }
         },
         {
@@ -1555,10 +1569,17 @@
             }
         },
         {
+            "name": "python class keyword",
+            "scope": "storage.type.class.python",
+            "settings": {
+                "foreground": "#c88878"
+            }
+        },
+        {
             "name": "python class definitions",
             "scope": "entity.name.type.class.python",
             "settings": {
-                "foreground": "#c89858"
+                "foreground": "#c88878"
             }
         },
         {
