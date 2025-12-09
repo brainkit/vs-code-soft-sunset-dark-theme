@@ -1,4 +1,4 @@
-// TypeScript/JavaScript Demo Code  asdas
+// TypeScript/JavaScript Demo Code
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
