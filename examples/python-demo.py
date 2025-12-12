@@ -4,8 +4,6 @@ import aiohttp
 from dataclasses import dataclass
 from typing import List, Optional, Dict, Any
 from datetime import datetime
-import json
-
 
 @dataclass
 class User:
@@ -14,7 +12,6 @@ class User:
     email: str
     avatar: Optional[str] = None
     created_at: datetime = datetime.now()
-
 
 class UserService:
     def __init__(self, base_url: str = "https://api.example.com/users"):

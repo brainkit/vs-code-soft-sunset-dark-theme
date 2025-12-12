@@ -17,6 +17,10 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 
 ![JavaScript Demo](examples/javascript-demo.png)
 
+### Interface Preview
+
+![Interface Demo](examples/interface-demo.png)
+
 ## 📦 Installation
 
 ### From VS Code Marketplace
