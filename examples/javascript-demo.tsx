@@ -39,7 +39,7 @@ class UserService {
 /**
  * 
  * @param userId 
- * @returns UserProfile Componentasdasda
+ * @returns UserProfile Component
  */
 const UserProfile: React.FC<{ userId: number }> = ({ userId }) => {
   const [user, setUser] = useState<UserType | null>(null);
