@@ -49,10 +49,10 @@ const UserProfile: React.FC<{ userId: number }> = ({ userId }) => {
   useEffect(() => {
     const userService = new UserService();
     
-    const fetchUser = async () => {
+    const fetchUser = async (ids) => {
       try {
         setLoading(true);
-        const users = await userService.getUsers();
+        const users = await userService.getUsers(ids);
         const foundUser = users.find(u => u.id === userId);
         setUser(foundUser || null);
       } catch (err) {
