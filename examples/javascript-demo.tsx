@@ -10,6 +10,13 @@ interface User {
   avatar?: string;
 }
 
+type UserType = {
+  id: number;
+  name: string;
+  email: string;
+  avatar?: string;
+}
+
 class UserService {
   private baseUrl: string = 'https://api.example.com/users';
 
@@ -35,7 +42,7 @@ class UserService {
  * @returns UserProfile Componentasdasda
  */
 const UserProfile: React.FC<{ userId: number }> = ({ userId }) => {
-  const [user, setUser] = useState<User | null>(null);
+  const [user, setUser] = useState<UserType | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
