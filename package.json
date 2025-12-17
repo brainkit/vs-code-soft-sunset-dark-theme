@@ -24,11 +24,6 @@
                 "label": "Soft Sunset Dark",    
                 "uiTheme": "vs-dark",
                 "path": "./themes/soft-sunset-dark.json"
-            },
-            {
-                "label": "Soft Sunset Dark OLED",
-                "uiTheme": "vs-dark",
-                "path": "./themes/soft-sunset-dark-oled.json"
             }
         ]
     }

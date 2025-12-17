@@ -4,11 +4,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "comment": {
-            "foreground": "#9a9580",  
+            "foreground": "#7a7568",  
             "fontStyle": "italic"
         },
         "comment.doc": {
-            "foreground": "#aaa590",  
+            "foreground": "#8a8578",  
             "fontStyle": "italic"
         },
         "keyword": {
@@ -81,7 +81,7 @@
             "foreground": "#b8b8a0"
         },
         "decorator": {
-            "foreground": "#b88ac0"
+            "foreground": "#78a89a"
         },
         "tag": {
             "foreground": "#b8a070"
@@ -337,7 +337,7 @@
             "name": "Comment Markup Link",
             "scope": "comment markup.link",
             "settings": {
-                "foreground": "#9a9580",
+                "foreground": "#7a7568",
                 "fontStyle": "italic"
             }
         },
@@ -1467,14 +1467,14 @@
             "name": "python function decorator @",
             "scope": "meta.function.decorator.python",
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#78a89a"
             }
         },
         {
             "name": "python function support",
             "scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
             "settings": {
-                "foreground": "#a890b0"
+                "foreground": "#78a89a"
             }
         },
         {
@@ -1969,7 +1969,7 @@
             "name": "comments",
             "scope": ["beginning.punctuation.definition.list.markdown.xi"],
             "settings": {
-                "foreground": "#9a9580",
+                "foreground": "#7a7568",
                 "fontStyle": "italic"
             }
         },
@@ -2039,7 +2039,7 @@
             "name": "Comments",
             "scope": "comment, punctuation.definition.comment",
             "settings": {
-                "foreground": "#8a8575",
+                "foreground": "#7a7568",
                 "fontStyle": "italic"
             }
         },
@@ -2047,7 +2047,7 @@
             "name": "[VSCODE-CUSTOM] Markdown Quote",
             "scope": "markup.quote.markdown",
             "settings": {
-                "foreground": "#9a9580"
+                "foreground": "#7a7568"
             }
         },
         {
