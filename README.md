@@ -69,7 +69,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 Changelog
 
-### Version 0.0.17 (Current)
+### Version 0.0.22 (Current)
+
+- **OLED-friendly contrast**: Brightened code tokens (keywords, operators, params, constants) without shifting hues for sharper legibility.
+- **UI clarity**: Slightly lifted system text/icon brightness for cleaner separation against the dark canvas.
+- **Harmony preserved**: Kept the sunset palette intact while improving readability.
+
+### Version 0.0.17
 
 - **Improved readability**: Enhanced comment contrast for comfortable reading
 - **Better hierarchy**: Optimized variable and function colors for clearer code structure
