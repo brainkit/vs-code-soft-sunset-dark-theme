@@ -69,7 +69,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 Changelog
 
-### Version 0.0.22 (Current)
+### Version 0.0.24 (Current)
+
+- **Variable color refinement**: Unified variables to warm sandy `#c8c0a8` for better harmony
+- **Type hierarchy**: Classes/interfaces now brighter `#bca878`, primitive types darker `#a89868`
+- **Boolean/null constants**: Aligned with primitive types for visual consistency
+- **Import consistency**: Fixed mixed colors in Python/TypeScript imports
+
+### Version 0.0.22
 
 - **OLED-friendly contrast**: Brightened code tokens (keywords, operators, params, constants) without shifting hues for sharper legibility.
 - **UI clarity**: Slightly lifted system text/icon brightness for cleaner separation against the dark canvas.

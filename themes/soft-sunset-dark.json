@@ -51,7 +51,7 @@
             "foreground": "#c4ac7c"
         },
         "boolean": {
-            "foreground": "#c4ac7c"
+            "foreground": "#a89868"
         },
         "type": {
             "foreground": "#c4ac7c" 
@@ -225,7 +225,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#c4ac7c"
+                "foreground": "#a89868"
             }
         },
         {
