@@ -1,14 +1,14 @@
 # Soft Sunset Dark Theme
 
-A calm sunset theme in neon tones with subtle coastline hues for relaxed coding sessions.
+A warm sunset-inspired theme with harmonized color palette, optimized for relaxed coding sessions.
 
 ![Soft Sunset Dark Theme](https://img.shields.io/badge/VS%20Code-Soft%20Sunset%20Dark-purple?style=for-the-badge&logo=visual-studio-code)
 
 ## 🌅 Features
 
-- **Calming Color Palette**: Soft sunset-inspired neon tones with coastline hues
+- **Harmonized Color Palette**: Warm sunset-inspired tones with consistent visual hierarchy
 - **Eye-Friendly**: Designed for extended coding sessions with reduced eye strain
-- **Modern Aesthetic**: Contemporary dark theme with vibrant accents
+- **Enhanced Visual Coherence**: Unified color scheme eliminates visual dissonance
 - **VS Code Compatible**: Fully compatible with VS Code 1.80.0 and later
 
 ## 📸 Preview
@@ -44,6 +44,30 @@ A calm sunset theme in neon tones with subtle coastline hues for relaxed coding 
 2. Type "Preferences: Color Theme" and press Enter
 3. Select **Soft Sunset Dark** from the list
 
+## 🔧 Сборка VSIX
+
+1. Установите зависимости:
+
+   ```bash
+   npm install
+   ```
+
+2. Установите `vsce` (если ещё не установлен):
+
+   ```bash
+   npm install -g @vscode/vsce
+   ```
+
+   или запускайте через `npx` без глобальной установки.
+3. Соберите пакет:
+
+   ```bash
+   npx vsce package
+   ```
+
+   В корне появится файл вида `soft-sunset-dark-x.y.z.vsix`.
+4. Установите VSIX в VS Code: `Ctrl+Shift+P` → `Extensions: Install from VSIX...` → выберите полученный файл.
+
 ## ⚙️ Requirements
 
 - VS Code version: `^1.80.0`
@@ -69,7 +93,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 Changelog
 
-### Version 0.0.24 (Current)
+### Version 0.0.27 (Current)
+
+- **Color harmony improvements**: Replaced cold purple accents with warm sunset tones throughout the theme
+- **Operator consistency**: Unified assignment operators (=) to match return keyword color for better visual coherence
+- **Enhanced sunset palette**: Functions now use warmer green and keywords use sunset orange for improved thematic consistency
+- **Interface cohesion**: All UI elements now follow the warm sunset color scheme
+
+### Version 0.0.26
+
+- **Minimap rendering fix**: Updated minimap background color to compensate for VS Code rendering artifacts
+- **Color formula discovered**: Found optimal minimap color formula for perfect visual harmony
+- **Minimap settings**: Maintained foreground opacity and disabled character rendering for optimal display
+
+### Version 0.0.24
 
 - **Variable color refinement**: Unified variables to warm sandy `#c8c0a8` for better harmony
 - **Type hierarchy**: Classes/interfaces now brighter `#bca878`, primitive types darker `#a89868`

@@ -12,7 +12,7 @@
             "fontStyle": "italic"
         },
         "keyword": {
-            "foreground": "#b49cbc"
+            "foreground": "#c47c74"
         },
         "keyword.control": {
             "foreground": "#c47c74"
@@ -27,7 +27,7 @@
             "foreground": "#c47c74"
         },
         "storage": {
-            "foreground": "#b49cbc"
+            "foreground": "#c47c74"
         },
         "storage.type.ts": {
             "foreground": "#d49484"
@@ -63,7 +63,7 @@
             "foreground": "#d49484"
         },
         "enum": {
-            "foreground": "#cc9cdc" 
+            "foreground": "#c47c74" 
         },
         "function": {
             "foreground": "#84b4a6"
@@ -114,7 +114,7 @@
             "name": "unison punctuation",
             "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
             "settings": {
-                "foreground": "#b6a4b4"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -177,7 +177,7 @@
                 "storage.modifier.ts"
             ],
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -188,7 +188,7 @@
                 "storage.modifier.const"
             ],
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -197,7 +197,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -239,7 +239,7 @@
             "name": "haskell variable generic-type",
             "scope": "variable.other.generic-type.haskell",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -253,7 +253,7 @@
             "name": "support.variable.magic.python",
             "scope": "support.variable.magic.python",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -302,21 +302,21 @@
             "name": "variable.language.rust",
             "scope": "variable.language.rust",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
             "name": "support.constant.edge",
             "scope": "support.constant.edge",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
             "name": "regexp constant character-class",
             "scope": "constant.other.character-class.regexp",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {
@@ -373,7 +373,7 @@
             "name": "deleted.diff",
             "scope": "markup.deleted.diff",
             "settings": {
-                "foreground": "#b49cbc"
+                "foreground": "#c47c74"
             }
         },
         {

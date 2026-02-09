@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.27] - 2026-02-10
+
+### Changed
+- **Color harmony improvements**: Replaced cold purple accents (#a890b0) with warm sunset tones (#c47c74) throughout the theme
+- **Operator consistency**: Unified assignment operators (=) to match return keyword color for better visual coherence
+- **Enhanced sunset palette**: Functions now use warmer green (#acbc84) and keywords use sunset orange (#d49484) for improved thematic consistency
+- **Interface cohesion**: All UI elements now follow the warm sunset color scheme, eliminating visual dissonance
+
+### Technical Details
+- Updated over 50 token color definitions to maintain sunset theme integrity
+- Improved color hierarchy for better code readability
+- Maintained contrast ratios while enhancing visual warmth
+
 ## [0.0.26] - 2025-12-28
 
 ### Changed

@@ -2,8 +2,8 @@
     "name": "soft-sunset-dark",                 
     "displayName": "Soft Sunset Dark",        
     "publisher": "brainkit",
-    "description": "Soft Sunset Dark is a calm sunset theme in neon tones with subtle coastline hues for relaxed coding sessions.",
-    "version": "0.0.26",
+    "description": "Soft Sunset Dark is a warm sunset-inspired theme with harmonized color palette, optimized for relaxed coding sessions.",
+    "version": "0.0.27",
     "extensionKind": [
         "ui"
     ],
