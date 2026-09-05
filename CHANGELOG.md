@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.31] - 2026-09-05
+
+### Changed
+- **Greyer, dimmer thread lines**: Shifted `sideBarActivityBarTop.border`, `sideBarSectionHeader.border`, `widget.border`, `tree.indentGuidesStroke` and `chat.requestBorder` from `#4a4034` to `#403b35` so the Claude Code timeline line sits closer to the neutral panel edge tone
+
 ## [0.0.30] - 2026-09-05
 
 ### Changed
