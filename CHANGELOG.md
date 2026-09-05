@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.30] - 2026-09-05
+
+### Changed
+- **Softer thread and guide lines**: Toned down `sideBarActivityBarTop.border`, `sideBarSectionHeader.border`, `tree.indentGuidesStroke` and `chat.requestBorder` from `#6a5c4a` to `#4a4034` so the Claude Code timeline line and panel borders match the theme's existing border tone instead of standing out
+
 ## [0.0.29] - 2026-09-05
 
 ### Changed
