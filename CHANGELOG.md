@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.28] - 2026-02-10
+
+### Changed
+- **Pale coral accent**: Introduced a desaturated coral (`#c48474`) for keywords, interfaces, classes, operators and symbol icons to better match the warm sunset background
+- **Python + TypeScript parity**: Unified Python type/class scopes and TypeScript storage tokens to the new accent for consistent semantics across languages
+- **Operator polish**: Harmonized `new`, logical, comparison and assignment operators (JS/TS/Python/PHP) with the updated accent so code structure reads as a single layer
+
+### Technical Details
+- Updated all semantic tokens and token color scopes referencing the previous coral shades (#c47c74 → #c07868 → #c48474) to keep palette coherent
+- Synced symbol icon colors and UI highlights with the new tone for sidebar/tree parity
+
 ## [0.0.27] - 2026-02-10
 
 ### Changed
