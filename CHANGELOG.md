@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.29] - 2026-09-05
+
+### Changed
+- **Visible thread lines in Claude Code panel**: Added `sideBarActivityBarTop.border` (`#6a5c4a`), which the Claude Code chat webview uses for its message timeline line; previously undefined, so the line was invisible
+- **Tree indent guides**: Brightened `tree.indentGuidesStroke` from `#302a20` to `#6a5c4a` so nested items in trees and chat tool calls read clearly
+- **Chat colors**: Added `chat.*` workbench colors (request border/background, slash commands, avatar) in the warm sunset palette
+- **Borders**: Added `sideBarSectionHeader.border` and `widget.border` for consistent separators
+
+### Documentation
+- README rewritten in English and simplified; changelog now lives only in CHANGELOG.md
+
 ## [0.0.28] - 2026-02-10
 
 ### Changed
