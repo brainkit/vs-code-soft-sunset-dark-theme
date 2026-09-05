@@ -1,9 +1,9 @@
 {
-    "name": "soft-sunset-dark",                 
-    "displayName": "Soft Sunset Dark",        
+    "name": "soft-sunset-dark",
+    "displayName": "Soft Sunset Dark",
     "publisher": "brainkit",
     "description": "Soft Sunset Dark is a warm sunset-inspired theme with harmonized color palette, optimized for relaxed coding sessions.",
-    "version": "0.0.31",
+    "version": "0.0.32",
     "extensionKind": [
         "ui"
     ],
@@ -21,7 +21,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Soft Sunset Dark",    
+                "label": "Soft Sunset Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/soft-sunset-dark.json"
             }
