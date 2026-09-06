@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.0.32] - 2026-09-06
+## [0.0.33] - 2026-09-06
 
 ### Fixed
 - **Broken README images on the Marketplace**: The `repository` URL in `package.json` pointed to `brainkit/liteapi` since 0.0.28, so the Marketplace resolved `examples/*.png` against the wrong repository (404). Restored `brainkit/vs-code-soft-sunset-dark-theme`
